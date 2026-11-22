@@ -1,0 +1,8 @@
+def register_student(student_id, activity_id):
+    registration = {
+                "student_id": student_id,
+                        "activity_id": activity_id
+    }
+
+        registrations.append(registration)
+    }
