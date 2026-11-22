@@ -5,4 +5,19 @@ def register_student(student_id, activity_id):
     }
 
         registrations.append(registration)
-    }
+    }def register_student(student_id, activity_id):
+        for registration in registrations:
+                if (
+                                registration["student_id"] == student_id
+                                            and registration["activity_id"] == activity_id
+                ):
+                            return "Student already registered"
+
+                                registrations.append({
+                                            "student_id": student_id,
+                                                    "activity_id": activity_id
+                                })
+
+                                    return "Registration successful"
+                                }
+                )
